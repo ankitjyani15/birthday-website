@@ -429,7 +429,7 @@ function SectionShell({
 
 function StorySection() {
   return (
-    <SectionShell id="story" eyebrow="How it all started" title="Two days that stayed in my heart.">
+    <SectionShell id="story" eyebrow="" title="Two days that stayed in my heart.">
       <div className="grid gap-6 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
         <motion.div
           {...revealVariant(0.08)}
@@ -484,7 +484,7 @@ function StorySection() {
 function ChildhoodSection() {
   return (
     <SectionShell
-      eyebrow="Childhood memories"
+      eyebrow=""
       title="The little girl in these pictures grew into the most beautiful person I know."
     >
       <div className="grid gap-6 sm:grid-cols-3">
@@ -525,7 +525,7 @@ function CallsSection({
   const photo = callMemories[activeCall];
 
   return (
-    <SectionShell eyebrow="Video call memories" title="Even distance became softer with you.">
+    <SectionShell eyebrow="" title="Even distance became softer with you.">
       <div className="grid gap-7 lg:grid-cols-[1fr_0.8fr] lg:items-center">
         <motion.div
           {...revealVariant()}
@@ -596,7 +596,7 @@ function WishJarSection({
 
   return (
     <SectionShell
-      eyebrow="Birthday wish jar"
+      eyebrow=""
       title="Tiny wishes I am keeping for your new year."
     >
       <motion.div
@@ -928,7 +928,7 @@ function EndingSection() {
         <p className="text-pretty text-lg leading-9 text-pink-50/82">
           Lakshu, this is not just a website. It is a little proof that
           I remember you with warmth, prays for your happiness, and cherish you with all my heart. I am grateful for every moment we have shared, and I
-          feels lucky that life somehow led me to you.
+          feel lucky that life somehow led me to you.
         </p>
       </motion.div>
     </section>
